@@ -7,7 +7,7 @@ function maxSubArray(arr, k) {
     for (let i = 0; i < arr.length; i++) {
         subArray.push(arr[i])
         subSum += arr[i]
-        if(subArray.length >= k){
+        if(subArray.length = k){
             max = Math.max(subSum, max)
             const subtracted = subArray.splice(0,1)
             subSum -= subtracted
@@ -34,8 +34,8 @@ function max_sub_array_of_size(k, arr) {
     return maxSum
 }
 
-console.log(max_sub_array_of_size([2,3,4,1,5],2))
-console.log(max_sub_array_of_size([2,1,5,1,3,2],3))
+// console.log(max_sub_array_of_size([2,3,4,1,5],2))
+// console.log(max_sub_array_of_size([2,1,5,1,3,2],3))
 
 
 
