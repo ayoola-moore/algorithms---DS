@@ -35,4 +35,4 @@ function findMaxNumberOfFruits(fruits) {
 }
 
 console.log(findMaxNumberOfFruits(['A','B','C','A','C']))
-// console.log(findMaxNumberOfFruits(['A','B','C','B','B','C']))
+console.log(findMaxNumberOfFruits(['A','B','C','B','B','C']))
