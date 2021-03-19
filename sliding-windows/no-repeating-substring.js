@@ -22,5 +22,5 @@ function findLongestNonRepeatSubstring(str) {
 }
 
 console.log(findLongestNonRepeatSubstring("aabccbb"))
-console.log(findLongestNonRepeatSubstring("abbbb"))
-console.log(findLongestNonRepeatSubstring("abccde"))
+// console.log(findLongestNonRepeatSubstring("abbbb"))
+// console.log(findLongestNonRepeatSubstring("abccde"))
